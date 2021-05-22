@@ -209,7 +209,7 @@ if __name__ == '__main__':
     print("Actual encryption:", message.apply_transpose(enc_dict))
     enc_message = EncryptedSubMessage(message.apply_transpose(enc_dict))
     print("Decrypted message:", enc_message.decrypt_message())
-    print('-' * 16)
+    print('-' * 10)
      
     #TODO: WRITE YOUR TEST CASES HERE
     message1 = SubMessage("Jack Florey is a mythical character created on the spur of a moment to help cover an insufficiently planned hack.")
@@ -220,4 +220,4 @@ if __name__ == '__main__':
     print("Actual encryption:", message1.apply_transpose(enc_dict1))
     enc_message1 = EncryptedSubMessage(message1.apply_transpose(enc_dict1))
     print("Decrypted message:", enc_message1.decrypt_message())
-    print('-' * 16)
+    print('-' * 10)
