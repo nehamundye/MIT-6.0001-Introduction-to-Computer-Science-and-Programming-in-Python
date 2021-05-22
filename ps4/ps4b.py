@@ -251,6 +251,7 @@ class CiphertextMessage(Message):
         
         count = 0
         max_count = 0
+        result = []
 
         for s in range(26):
             cipher_message = self.apply_shift(s)
